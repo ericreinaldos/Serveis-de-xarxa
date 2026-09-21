@@ -1,8 +1,19 @@
 # El ecosistema DNS (OSINT y Web) [2p]
 
-1. Investigación de Jerarquía: 
+## 1. Investigación de Jerarquía: 
 
-  ¿Qué organismo internacional coordina y asigna los parámetros a nivel global del sistema de nombres de dominio e IPs? 
+  ### 1.1 ¿Qué organismo internacional coordina y asigna los parámetros a nivel global del sistema de nombres de dominio e IPs? 
 ICANN es la organización que coordina globalmente estos recursos, mientras que IANA realiza las funciones técnicas de coordinación de la zona raíz DNS, direcciones IP y parámetros de protocolos.
 
-  
+  ### 1.2 ¿Qué empresa u organismo gestiona (Registry) cada uno de los siguientes dominios de nivel superior (TLD)? 
+
+  | TLD         | Tipo             | Registry / organismo gestor                                                         |
+  | ----------- | ---------------- | ----------------------------------------------------------------------------------- |
+  | **.es**     | ccTLD (España)   | **Red.es**, a través de Dominios.es                                                 |
+  | **.cat**    | TLD patrocinado  | **Fundació puntCAT / Fundació .cat**                                                |
+  | **.edu**    | TLD patrocinado  | **EDUCAUSE**                                                                        |
+  | **.ifp.es** | **No es un TLD** | Es un dominio bajo **.es**; su gestión depende del registro .es y de su registrador |
+
+## 2. Herramientas OSINT (Whois y DNS Lookup):
+
+  ### 2.1 ¿Qué información te brinda una consulta Whois sobre un dominio? 
