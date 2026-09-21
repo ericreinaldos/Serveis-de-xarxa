@@ -1,0 +1,8 @@
+# El ecosistema DNS (OSINT y Web) [2p]
+
+1. Investigación de Jerarquía: 
+
+  ¿Qué organismo internacional coordina y asigna los parámetros a nivel global del sistema de nombres de dominio e IPs? 
+ICANN es la organización que coordina globalmente estos recursos, mientras que IANA realiza las funciones técnicas de coordinación de la zona raíz DNS, direcciones IP y parámetros de protocolos.
+
+  
