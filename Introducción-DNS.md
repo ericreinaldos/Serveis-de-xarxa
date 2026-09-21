@@ -1,4 +1,4 @@
-  DNS
+#  DNS
 Es una base de datos distribuidos con informacion sobre hosts y servicios. que permite un control local de los segmentos de la base de datos y cada segmento es accesible a toda la red a traves de un esquema 
 cliente-servidor. Para la mejora del sistema en robustez y rendimineto se consigue  a traves de caching y replcacion.
 
